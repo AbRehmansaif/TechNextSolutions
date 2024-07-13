@@ -15,16 +15,18 @@ Our Software Agency is dedicated to providing top-notch services across various 
 # Services
 We offer a wide range of services, including but not limited to:
 
-Data Analysis: Transform raw data into actionable insights.
-Data Visualization: Create stunning visual representations of your data.
-Web Scraping Specialist: Extract valuable data from websites.
-Python Automation Engineering: Automate repetitive tasks using Python.
-Web Development: Build responsive and dynamic websites.
-Video Editing: Craft professional videos for any purpose.
-Photo Editing: Enhance images to perfection.
-Graphic Designing: Design eye-catching graphics.
-Digital Marketing: Boost your online presence and reach.
-SEO: Improve your website's search engine ranking.
+* Data Analysis: Transform raw data into actionable insights.
+  
+* Data Visualization: Create stunning visual representations of your data.
+  
+* Web Scraping Specialist: Extract valuable data from websites.
+* Python Automation Engineering: Automate repetitive tasks using Python.
+* Web Development: Build responsive and dynamic websites.
+* Video Editing: Craft professional videos for any purpose.
+* Photo Editing: Enhance images to perfection.
+* Graphic Designing: Design eye-catching graphics.
+* Digital Marketing: Boost your online presence and reach.
+* SEO: Improve your website's search engine ranking.
 
 # Team
 Meet our talented team of professionals who are passionate about delivering exceptional results.
@@ -45,5 +47,17 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 # Connect with Me
-LinkedIn: Abdul Rehman |  https://www.linkedin.com/in/abdul-rehman-ssuetian/
-Instagram: @abdulrehman_bin_saifullah   |   https://www.instagram.com/abdulrehman_bin_saifullah/
+* LinkedIn: Abdul Rehman |  https://www.linkedin.com/in/abdul-rehman-ssuetian/
+* Instagram: @abdulrehman_bin_saifullah   |   https://www.instagram.com/abdulrehman_bin_saifullah/
+
+[HTML-logo]: https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
+
+[CSS-logo]: https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+[JavaScript-logo]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+[Bootstrap-logo]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
