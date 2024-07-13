@@ -3,12 +3,12 @@
 Welcome to the repository for our Software Agency Website! This project showcases our diverse range of services, including data analysis, web development, digital marketing, and more. Explore the site to learn about our team, services, and how we can help you achieve your goals.
 
 # Table of Contents
-About
-Services
-Team
-Contact Us
-About
-Connect with Me
+* About
+* Services
+* Team
+* Contact Us
+* About
+* Connect with Me
 
 Our Software Agency is dedicated to providing top-notch services across various domains. Our team of experts is committed to delivering high-quality solutions tailored to meet your needs.
 
