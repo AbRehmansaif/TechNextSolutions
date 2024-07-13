@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <style>
+        .PromotionPriceCard{
+          margin-left: 100px;
+          margin-top: 30px;
+            width: 280px;
+            height: 340px;
+            background-color: black;
+            border-radius: 30px;
+        }
+        .PromotionPriceCard h2, li{
+            color: white;
+            line-height: 30px;
+        }
+        .PromotionPriceCard .Price .offPrice{
+            color: white;
+            font-size: x-large;
+        }
+        .PromotionPriceCard .Price .offPercentage{
+            color: white;
+            font-size: x-small;
+        }
+        .PromotionPriceCard .Price .totalPrice{
+            text-decoration: line-through;
+            color: rgba(255, 255, 255, 0.635);
+        }
+        .PromotionPriceCard .Price p{
+            text-align: center;
+            padding-top: 5px;
+            font-size: 20px;
+        }
+        .PromotionPriceCard .card-header{
+            margin-left: 40px;
+        }
+
+
+        
+.PromotionPriceCard .CustomBtn{
+  position: relative;
+  background-color: rgb(238, 11, 60);
+  border-radius: 5px;
+  box-shadow: rgb(152, 44, 84) 0px 4px 0px 0px;
+  padding: 5px 10px 5px 10px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  box-sizing: border-box;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.PromotionPriceCard .CustomBtn::before {
+  content: "";
+  background-color: rgb(248, 50, 93);
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: width 700ms ease-in-out;
+  display: inline-block;
+}
+
+.PromotionPriceCard .CustomBtn:hover::before {
+  width: 100%;
+}
+.PromotionPriceCard ul{
+  list-style: none;
+}
+.PromotionPriceCard2 .card-header{
+              margin-bottom: 0px;
+            }
+.PromotionPriceCard2 .card-body{
+              padding-top: 6px;
+            }
+.PromotionPriceCard2 .card-body li{
+              line-height: 26px;
+            }
+.PromotionPriceCard3 .card-header{
+              margin-bottom: 0px;
+            }
+.PromotionPriceCard3 .card-body{
+              padding-top: 6px;
+            }
+.PromotionPriceCard3 .card-body li{
+              line-height: 23px;
+            }
+.PromotionPriceCard3 .card-body .CustomBtn{
+              margin-top: 5px;
+            }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="d-flex flex-column">
+        <div style="display: flex; flex-wrap: wrap; ">
+          <div class="col-md-4  PromotionPriceCard">
+            <div class="Price">
+              <p><span class="totalPrice">$499</span> <span
+                  class="offPrice">$299</span> <span class="offPercentage">50%
+                  off</span></p>
+            </div>
+            <div class="card-header">
+              <h2>Basic Plan</h2>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li> <img src="assets/img/check.png" alt width="20px"> 5 pages
+                  website</li>
+                <li> <img src="assets/img/check.png" alt width="20px"> 5 Social
+                  Media Posts</li>
+                <li> <img src="assets/img/check.png" alt width="20px"> 1
+                  promotional Video</li>
+                <li> <img src="assets/img/check.png" alt width="20px"> Mobile
+                  Responsive +$99</li>
+              </ul>
+              <a href="#" class="CustomBtn">Request Quote</a>
+            </div>
+          </div>
+
+          <style>
+            
+          </style>
+
+          <div class=" col-md-4 PromotionPriceCard PromotionPriceCard2">
+            <div class="Price">
+              <p><span class="totalPrice">$1199</span> <span
+                  class="offPrice">$599</span> <span class="offPercentage">50%
+                  off</span></p>
+            </div>
+            <div class="card-header">
+              <h2>Standard Plan</h2>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li> <img src="assets/img/check.png" alt width="20px">10 pages
+                  website</li>
+                <li> <img src="assets/img/check.png" alt width="20px"> 10
+                  Social Media Posts</li>
+                <li> <img src="assets/img/check.png" alt width="20px"> 3
+                  promotional Video</li>
+
+                <li> <img src="assets/img/check.png" alt width="20px"> SEO</li>
+                <li> <img src="assets/img/check.png" alt width="20px"> Mobile
+                  Responsive +$99</li>
+              </ul>
+              <a href="#" class="CustomBtn">Request Quote</a>
+            </div>
+          </div>
+
+          <style>
+          
+        </style>
+
+          <div class="col-md-4  PromotionPriceCard PromotionPriceCard3">
+            <div class="Price">
+              <p><span class="totalPrice">$499</span> <span
+                  class="offPrice">$299</span> <span
+                  class="offPercentage">50% off</span></p>
+            </div>
+            <div class="card-header">
+              <h2>Basic Plan</h2>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li> <img src="assets/img/check.png" alt width="20px"> 15
+                  pages website</li>
+                <li> <img src="assets/img/check.png" alt width="20px"> 20
+                  Social Media Posts</li>
+                <li> <img src="assets/img/check.png" alt width="20px"> 7
+                  promotional Video</li>
+                <li> <img src="assets/img/check.png" alt width="20px"> SEO</li>
+                <li> <img src="assets/img/check.png" alt width="20px"> Digital
+                  Marketing</li>
+                <li> <img src="assets/img/check.png" alt width="20px"> Mobile
+                  Responsive +$99</li>
+
+              </ul>
+              <a href="#" class="CustomBtn">Request Quote</a>
+            </div>
+          </div>
+
+        </body>
+      </html>
+
+
+      

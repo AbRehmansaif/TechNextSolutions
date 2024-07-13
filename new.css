@@ -1,0 +1,200 @@
+.home{
+    color: white;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(assets/img/im1.jpg) no-repeat 100%;
+    background: cover;
+    /* width: 100rem; */
+    background-position:center ;
+}
+
+.home .content{
+    max-width: 50rem;
+    align-items: center;
+}
+
+.home .content h3{
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.home .content span{
+    font-size: 5rem;
+    color: var(--red);
+    padding: 1rem 0;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+/* Home section end */
+
+/* contact section start */
+.contact .heading{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+.contact .heading span{
+    color: red;
+}
+.contact .contact-data{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.contact .contact-data form{
+    flex: 1 1 40rem;
+    padding: 2rem 2.5rem;
+    border: .6rem solid var(--white);
+    background: var(--dark-white);
+    border-radius: .5rem;
+    box-shadow: 0 0 1.5rem .5rem var(--light-red);
+}
+
+.contact .contact-data form input:hover{
+    border: 1px solid var(--black);
+    box-shadow: 0 .2rem 1rem var(--light-red);
+}
+
+.contact .contact-data .map{
+    flex: 1 1 40rem;
+}
+
+.contact .contact-data .map iframe{
+    width: 100%;
+    height: 44rem;
+    border: .6rem solid var(--white);
+    border-radius: .5rem;
+    box-shadow: 0 0 1.5rem .5rem var(--light-red);
+}
+
+.contact .contact-data  form .box{
+     padding: 1rem;
+    font-size: 1.7rem;
+    color: var(--black);
+    outline: none;
+    text-transform: none;
+    border-radius: .5rem;
+    margin: .7rem 0;
+    width: 100%; 
+}
+.contact .contact-data form .box:focus{
+    border-color: var(--light-red);
+}
+
+.contact .contact-data form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+.contact .contact-data form textarea:hover{
+    box-shadow: 0 .2rem 1rem var(--red);
+}
+
+/* contact section end */
+
+/* review section start */
+
+.review .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.review .box-container .box{
+    flex: 1 1 30rem;
+    background: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    padding: 3rem 2rem;
+    position: relative;
+    border:1rem solid var(--white) ;
+    box-shadow: 0 1rem 1.5rem var(--light-red);
+}
+
+.review .box-container .box .icons i{
+    color: var(--red);
+    font-size: 4rem;
+    align-items: center;
+}
+.review .box-container .box p{
+    color: var(--dark-white);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    padding-top: 2rem;
+}
+.review .box-container .box .user h3{
+    font-size: 2rem;
+    color: var(--red);
+}
+
+
+/* review section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media Query */
+
+@media(max-width: 991px){
+
+    html{
+        font-size: 55%;
+    }
+   
+    section{
+        padding: 2rem;
+    }
+
+    .home{
+        background-position: left;
+    }
+   
+}
+
+@media(max-width: 768px){
+
+    .home content h3{
+        font-size: 2rem;
+    }
+
+    .home content span{
+        font-size: 3rem;
+    }
+
+}
+
+@media(max-width: 450px){
+
+    html{
+        font-size: 50%;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+
+}
